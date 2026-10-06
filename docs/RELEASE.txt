@@ -1,0 +1,30 @@
+YouTube Saver 1.0.0 — Windows x64
+
+Minimal English interface for saving public YouTube videos and music.
+Video MP4 selects the best available streams with no resolution limit.
+Music MP3 uses the best available audio stream and high-quality MP3 conversion.
+Downloads default to the Windows Downloads known folder, including redirected folders.
+The native maximize button is disabled; minimize and close remain available.
+Transparent application and desktop icon. No account, browser extension, or server.
+The installer wizard uses the project's download/play logo.
+No telemetry, browser cookie access, automatic updates, or remote code components.
+
+Files prepared for a future GitHub Release:
+- YouTube-Saver-1.0.0-Setup.exe: per-user installer; no administrator rights required.
+- YouTube-Saver-1.0.0-Portable.exe: standalone app; no Python installation required.
+- SHA256SUMS.txt: SHA-256 checksums for both executables.
+- SECURITY-CHECK.txt: local verification results and limitations.
+
+The portable executable extracts its bundled tools into a temporary folder at
+startup. Its optional settings stay in a settings folder beside the executable.
+Internet is required to access YouTube and its media delivery servers.
+High-resolution MP4 files may use AV1 or VP9 and need a compatible player.
+Private, age-restricted, unavailable, or login-required videos may fail.
+Use content you own or have permission to download.
+
+Application source: MIT. Bundled tools include GPL components; retain the notices
+and comply with their source-distribution terms before redistributing binaries.
+Builds are unsigned. Hash and antivirus checks cannot guarantee absence of malware.
+
+This entire release-local folder is excluded from Git.
+Release artifacts are prepared locally; the build does not publish anything automatically.
